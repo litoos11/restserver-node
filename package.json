@@ -1,0 +1,24 @@
+{
+    "name": "restserver",
+    "version": "1.0.0",
+    "description": "RestFull ejemplo",
+    "main": "app.js",
+    "scripts": {
+        "start": "node server/server",
+        "supervisor": "supervisor server/server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Rest",
+        "Express",
+        "Node",
+        "Mongo",
+        "Mongoose"
+    ],
+    "author": "litoos11",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    }
+}
